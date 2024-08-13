@@ -6,5 +6,5 @@ Raspberry Pi財団が公開しているドキュメント「Getting started with
 
 OSがWindowsの場合以下の点に注意してください。   
 ・インストーラーを実行する際は管理者として実行する。    
-・pico-examples\.vscodeフォルダをPicoTracer_Prototype_V1フォルダにコピーする。  
+・pico-examplesフォルダ内の.vscodeフォルダをPicoTracer_Prototype_V1フォルダにコピーする。  
 ・VS Codeを開く際はWindowsのスタートメニュー -> Raspberry Pi Pico SDK v1.5.1 にある「Pico - Visual Studio Code」を実行して開く。
