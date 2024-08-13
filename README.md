@@ -1,5 +1,8 @@
 # PicoTracer_Prototype_V1
-PicoTracerは白線の上をたどって走るロボットです。
+PicoTracerは白線の上をたどって走るロボットです。    
+
+テストボード    
+![testbord](https://github.com/Yumizu0406/PicoTracer_Prototype_V1/blob/main/docs/images/testbord.png)   
 
 # 開発環境について
 Raspberry Pi財団が公開しているドキュメント「Getting started with Raspberry Pi Pico-series」の内容に沿って行ってください。
