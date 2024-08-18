@@ -4,7 +4,7 @@ include(../pico_sdk_import.cmake)
 project(PicoTracer C CXX ASM)
 set(CMAKE_C_STNDARD 11)
 set(CMAKE_CXX_STANDARD 17)
-add_library(driver STATIC timer.c sw.c)
+add_library(driver STATIC timer.c sw.c lineSensor.c)
 
 pico_sdk_init()
 

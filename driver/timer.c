@@ -8,6 +8,7 @@ include
 ***********************************************************************************************************************/
 #include "timer.h"
 #include "sw.h"
+#include "lineSensor.h"
 #include "pico/stdlib.h"
 
 /***********************************************************************************************************************
@@ -50,6 +51,7 @@ bool timer_callback_1ms(repeating_timer_t *t){
     }
 
     update_sw();
+    update_lineSensor();
 
     return true;
 }
