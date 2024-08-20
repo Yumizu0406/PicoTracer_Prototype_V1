@@ -1,4 +1,5 @@
 #include "pico/stdlib.h"
+#include "application/control.h"
 #include "driver/timer.h"
 #include "driver/sw.h"
 #include "driver/lineSensor.h"
@@ -12,6 +13,8 @@ int main() {
 
     gpio_init(22);
     gpio_set_dir(22, GPIO_OUT);
+
+    init_control();
 
     init_driver();
 
